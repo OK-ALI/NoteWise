@@ -1,0 +1,26 @@
+# Core packages for NoteWise with Gemini AI
+streamlit==1.37.1
+python-dotenv==1.1.1
+
+# AI Engine - Google Gemini (includes Vision capabilities)
+google-generativeai==0.8.5
+
+# PDF Processing
+pdfplumber==0.11.7
+
+# PowerPoint Processing
+python-pptx==0.6.23
+
+# PDF Generation (for exports)
+reportlab==4.4.3
+
+# Image Processing (for Gemini Vision)
+Pillow>=10.4.0
+
+# Development & Testing (optional)
+pytest==8.3.2
+black==24.8.0
+flake8==7.1.1
+
+# Additional utilities for text processing
+regex==2024.7.24
